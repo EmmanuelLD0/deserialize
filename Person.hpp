@@ -12,7 +12,7 @@ private:
     int height;
 
 public:
-    Person() : age(0), height(0) {}
+    Person() = default;
 
     // Getters
     std::string getName() const;
